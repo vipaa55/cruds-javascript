@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #333;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    max-width: 1100px;
+}
+
+.head{
+    text-align: center;
+    text-transform:uppercase;
+    margin: 10px 0;
+}
+input{
+    padding: 4px;
+    border-radius: 5px;
+    background-color: #222;
+    color:#fff ;
+    border: 0;
+    width: 100%;
+    height: 30px;
+    margin: 4px 0;
+    outline: none;
+    
+}
+input:focus{
+ background-color: #111;
+ transform: scale(1.08);
+}
+.price input{
+    width: 20%;
+}
+#total{
+    background-color: rgb(145, 6, 6);
+    padding: 5px 2px;
+    border-radius: 5px;
+}
+#total::before{
+    content: 'total:';
+}
+button{
+    width: 100%;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    background-color: rgb(56, 26, 81);
+    color: white;
+    transition: 0.5s;
+}
+button:hover{
+    background-color:   rgb(81, 47, 110);
+    letter-spacing: 1px;
+    
+}
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.btnSearch button {
+    width: 45%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+   
+}
+table button {
+    height: 20px;
+    margin: 2px;
+}
+table th {
+    text-transform: uppercase;
+    padding: 5px;
+}
